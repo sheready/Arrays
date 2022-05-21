@@ -40,3 +40,15 @@ array6[4] = 32
 
 for x in array6:
   print(x)
+
+#using the slicing operator in array
+array7 =array('i', [4,6,7,2,89,30,14,67])
+print(array7[2:5])
+print(array7[-5])
+print(array7[5:])
+print(array7[:])
+
+#using pop() to remove array value at a certain index 
+array8 =array('i', [4,6,7,2,89,30,14,67])
+print(array8.pop(2))
+
