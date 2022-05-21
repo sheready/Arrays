@@ -27,3 +27,16 @@ array4 = array('i',[30,20,10,4,3,7])
 array4.remove(4)
 for x in array4:
   print(x)
+
+#searching for an array element based on value or index
+#using the index method
+
+array5 = array('i',[30,20,10,40,90])
+print(array5.index(20))
+
+#update on array element
+array6 =  array('i',[40,20,67,30,20])
+array6[4] = 32
+
+for x in array6:
+  print(x)
